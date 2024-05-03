@@ -1,18 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import './App.sass';
-import './App.scss';
+import "./assets/style/App.scss";
+import "./assets/style/reset.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='content'>
-          <h1 className='welcomeText'>Please start editing content here</h1>
-          <h2 className='sassTempText'>Sass Temp Text</h2>
-          <h2 className='scssTempText'>Scss Temp Text</h2>
+      <div className="wrapper">
+        <h1 className="title">Gift Guide</h1>
+
+        <div className="button-area">
+          <button>驚喜寶庫</button>
+          <button>閃亮佳節</button>
+          <button>旅遊之樂</button>
+          <button>活力旅程</button>
         </div>
-      </header>
+
+        <footer>
+          <div className="link">
+            <a href="#">首頁</a>
+            <a href="#">個人化服務</a>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }
